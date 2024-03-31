@@ -1,0 +1,176 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.79,
+      "y": 4.39
+    },
+    "rotation": -60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "NotaAtma"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AsansorAtis"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AciAtis"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "NotaAtmaİntake"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "StopShooter"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Stopİntake"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AsansorAlma"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AciAlma"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "intakeAlma"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Mid2Note1"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Mid2Note2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Stopİntake"
+                }
+              },
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "Mid2Note3"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AciAtis"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AsansorAtis"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "NotaAtma"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 0.5
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "NotaAtmaİntake"
+                }
+              },
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.4
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "StopShooter"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "Stopİntake"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
