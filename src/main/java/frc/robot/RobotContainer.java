@@ -101,24 +101,6 @@ public class RobotContainer{
     driver2.povLeft().onFalse(elevatoroOutSub.stopElevatorOut());
     driver2.povRight().onTrue(elevatoroOutSub.elevatorDown());
     driver2.povRight().onFalse(elevatoroOutSub.stopElevatorOut());
-
-    //Manuel Asansör ve Açı
-    driver1.povUp().onTrue(elevatorINSub.ManuelElevator(-0.4));
-    driver1.povUp().onFalse(elevatorINSub.ManuelElevator(0));
-    driver1.povDown().onTrue(elevatorINSub.ManuelElevator(0.4));
-    driver1.povDown().onFalse(elevatorINSub.ManuelElevator(0));
-    driver1.povRight().onTrue(angleSub.ManuelAngle(0.4));
-    driver1.povRight().onFalse(angleSub.ManuelAngle(0));
-    driver1.povLeft().onTrue(angleSub.ManuelAngle(-0.4));
-    driver1.povLeft().onFalse(angleSub.ManuelAngle(0));
-
-    //Reset Encoder
-    driver1.button(5).onTrue(elevatorINSub.Reset());
-    driver1.button(5).onTrue(angleSub.Reset());
-
-    //Sensörsüz İntake
-    driver1.button(6).onTrue(intakeSub.AmpNote(0.7));
-    driver1.button(6).onFalse(intakeSub.stopIntake());
   }
   
   public void configurePathPlanner() {
